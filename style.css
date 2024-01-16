@@ -12,27 +12,24 @@ nav{
 }
 nav .taitel{
     display: flex;
-    position: relative;
 }
 .taitel h1{
     color: #131318;
     font-family: Mulish;
-    width: 100%;
-    height: auto;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 800;
     margin-left: 20px;
 }
 .taitel span{
     color: #FF5400;
     font-family: Mulish;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 800;
 }
 .taitel img{
-    width: 48px;
-    height: 56.008px;
-    margin-top: 20px;
+    width: 3rem;
+    height: 3.5rem;
+    margin-top: 1.25rem;
 }
 nav ul{
     display: flex;
@@ -143,6 +140,7 @@ nav ul a:hover{
      gap: 4rem;
      margin-bottom: 6.25rem;
 }
+
 .popular-1 h1{
     color: #131318;
     text-align: center;
@@ -209,9 +207,10 @@ nav ul a:hover{
     line-height: 1.625rem;
 }
 .section-3 .img-3{
-    margin-left: 127px;
     
+    margin-left: 127px;
 }
+
 .section-3 .img-3 img{
     margin-left: 1rem;
     margin-top: 1rem;
@@ -275,8 +274,8 @@ nav ul a:hover{
     background: rgba(251, 181, 99, 0.05);
 }
 .section-4 .hotel-img img{
-    width: 64px;
-    height: 64px;
+    width: 4rem;
+    height: 4rem;
     padding: 32px 474px 0px 32px;
 }
 .section-4 .hotel-img h1{
@@ -302,8 +301,8 @@ nav ul a:hover{
     background: rgba(41, 206, 246, 0.2);
 }
 .section-4 .map-img img{
-    width: 64px;
-    height: 64px;
+    width: 4rem;
+    height: 4rem;
     padding: 32px 474px 0px 32px;
 }
 .section-4 .map-img h1{
@@ -333,8 +332,8 @@ nav ul a:hover{
     margin-bottom: 6.25rem;
 }
 .section-4 .price-img img{
-    width: 64px;
-    height: 64px;
+    width: 4rem;
+    height: 4rem;
     padding: 32px 474px 0px 32px;
 }
 .section-4 .price-img h1{
@@ -355,45 +354,403 @@ nav ul a:hover{
 /*section-4 end*/
 
 /*section-5 start*/
+.taitel-5 h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.taitel-5 p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
 
+.section-5{
+    background-image: url(Images/sajek\ \(1\).jpg);
+    background-repeat: no-repeat;
+    width: 58.125rem;
+    height: 13.6875rem;
+    border-radius: 14px;
+    padding: 146px 135px 135px 0px;
+    margin-left: 135px;
+    margin-bottom: 6.25rem;
+}
+.section-5 .tour-content{
+    align-items: center;
+    position: absolute;
+    width: 79%;
+    height: 31.25rem;
+    margin: -145px 0px 10px 0px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.4);
+}
+.tour-content h1{
+    position: relative;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 4rem;
+    font-weight: 800;
+    padding: 76px 80px 0px 235px;
+    position: relative;
+}
+.tour-content p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 700;
+    position: relative;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+.tour-content button{
+    position: relative;
+    width: 10.875rem;
+    height: 3.25rem;
+    border: 1px solid #FFF;
+    margin-left: 1.25rem;
+    border-radius: 9px;
+    color: rgba(19, 19, 24, 0.50);
 
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.tour-btn{
+    padding: 1rem;
+    gap: 0px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    
+    margin: 0px 130px 0px 108px;
+}
+.tour-btn .booking-btn{
+    background: #FF5400;
+    color: #FFF;
+    border: 1px solid #FF5400;
+
+    
+}
+.booking-btn:hover{
+    background: rgb(106, 90, 205);
+    border: 1px solid rgb(106, 90, 205);
+    transition: all 1s;
+}
+.tour-btn .area-find{
+    background: rgb(255, 165, 0);
+    color: #FFF;
+    border: 1px solid rgb(255, 165, 0);
+}
+/*section-5 end*/
+
+/*section-6 start */
+
+.section-6{
+     display: flex;
+     padding: 0.0625rem 8.4375rem 1rem 8.4375rem;
+     gap: 4rem;
+     margin-bottom: 2.25rem;
+
+}
+.section-6 .taitel-6 h1{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    margin-top: -0.8rem;
+}
+.section-6 .taitel-6 p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+.section-6 .taitel-6 li{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+.section-6 .taitel-6 li span{
+    margin-left: 1.5rem;
+}
+.section-6 .taitel-6 button{
+    width: 10rem;
+    height: 2.9375rem;
+    border-radius: 0.5rem;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;  
+    font-weight: 600;
+    border: 1px solid #FF5400;
+    margin-left: 1rem;
+}
+.section-6 .img-6 img{
+    width: 31.875rem;
+    height: 28.125rem;
+    border-radius: 1rem;
+    position: relative;
+}
+.section-6 .img-6 h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+    position: relative;
+    top: -16.875rem;
+    
+}
+
+/*section-6end*/
+
+/*section-7 start*/
+ .section-7{
+    display: flex;
+    padding: 0.0625rem 8.4375rem 1rem 8.4375rem;
+    gap: 4rem;
+    margin-bottom: 0.5rem;
+
+ }
+ .section-7 .content-7{
+    width: 29.625rem;
+    height: 26.375rem;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+ }
+ .section-7 .content-7 h1{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-left: 2.5rem;
+    padding-top: 2rem;
+ }
+ .section-7 .content-7 p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    padding-left: 2.5rem;
+ } 
+ .section-7 .content-7 hr{
+    width: 24.0625rem;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+ }
+ .section-7 .content-7 .btn-7{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 41px 2px 41px;
+    gap: 1rem;
+ }
+ .section-7 .content-7 .btn-7 .first{
+    width: 24.5625rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: rgba(19, 19, 24, 0.05);
+    border: 1px solid rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 16px 241px 16px 20px;
+ }
+ .section-7 .content-7 .btn-7 .sub-btn{
+    width: 24.5625rem;
+    height: 3.25rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border-radius: 0.5rem;
+    background: #FF5400;
+    border: 1px solid #FF5400;
+ }
+ .section-7 .img-7{
+       position: relative;
+ }
+ .section-7 .img-7 .offer-option{
+    width: 20.25rem;
+    height: 7.5rem;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    position: relative;
+    left: 15rem;
+    top: -12.3rem;
+ }
+ .section-7 .img-7 .offer-option h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 400;
+    transform: rotate(-.628deg);
+    padding-top: 1rem;
+    position: relative;
+ }
+ .section-7 .img-7 .offer-option h1{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 2.8rem;
+    position: relative;
+    top: -1rem;
+ }
+
+ .section-7 .img-7 img{
+    width: 35.75rem;
+    height: 26.375rem;
+    position: relative;
+ }
+  
+
+ /*section-7 end*/
+
+ /*footer start*/
+
+ .footer{
+    width: 83.75rem;
+    height: 31.375rem;
+    background: rgba(19, 19, 24, 0.05);
+ }
+ .footer-img{
+    display: flex;
+ }
+ .footer-img h1{
+    color:  #131318;
+    font-family: Mulish;
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 110px 0px 0px 12px;
+ }
+ .footer-img h1 span{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 2rem;
+    font-weight: 800;
+ }
+ .footer-img img{
+    width: 2.5rem;
+    height: 2.9151875rem;
+   padding: 130px 0px 0px 520px;
+ }
+ .footer p{
+    width: 769px;
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding: 0px 0px 0px 250px;
+ }
+ .footer .i-tag{
+    width: 10.875rem;
+    height: 1.5rem;
+    margin-left: 34.375rem;
+    margin-top: 2rem;
+ }
+ .footer i{
+    margin-left: 1.25rem;
+ }
+ .footer hr{
+    width: 872px;
+    height: 1px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+ }
 
 @media screen and (max-width:576px){
-    nav{
-        flex-direction: column;
+    body{
+        margin-left: 190px;
     }
-    nav .taitel h1{
-        
-    }
-    nav ul{
-      flex-direction: column;
-    }
-    section{
+     nav ul{
+        display: none;
+     }
+     .taitel h1{
+        display: inline-flex;
+        font-size: 90px;
+        gap: 60px;
+     }
+     .taitel h1 span{
+        font-size: 90px;
+     }
+     .taitel img{
         width: 100%;
-        margin-left: 0px;
-        padding-right: 90px;
-    }
-    .banner{ 
-       width: 117%;
+        height: 50%;
+        padding-top: 50px;
+        padding-left: 190px;
+     }
+     .banner{
+        width: 115%;
+        position: relative;
+        margin: -195px 90px 0px 0px;
+     }
+     .section-2{
         
-    }
-    .banner h1{
-        padding: 0px;
-        font-size: 2rem;
-        margin-left: 95px;
-    }
-    .banner p{
-        padding: 48px;
-        margin-bottom: 0px;
-    }
-    .banner .btn{
-        margin-left: 60px;
-        line-height: 60px;
-        padding: -10px 0px 200px 20px;
+     }
+     .popular-1 h1{
+        width: 355px;
+        height: auto;
+        margin-left: 10px;
         
-    }
-    .banner button{
-        margin-left: 60px;
-      
-    }
-}
+     }
+     .popular-1 p{
+        width: 400px;
+        
+        font-size: 20px;
+        
+     }
+     .popular-1 li{
+        width: 400px;
+        font-size: 15px;
+     }
+     .popular-1 li span{
+        margin-left: 18px;
+     }
+     
+     .img-1 img{
+        margin-top: 10px;
+        margin-left: 90px;
+     }
+       .taitel-3 h1{
+        width: 500px;
+        align-items: center;
+        margin-left: 440px;
+       }
+       .taitel-3 p{
+        width: 900px;
+        margin-left: 240px;
+       }
+       .img-3{
+        width: 1400px;
+        height: auto;
+       }
+       .taitel-4 h1{
+        width: 400px;
+        font-size: 40px;
+        margin-left: 490px;
+       }
+       .taitel-4 p{
+        width: 600px;
+        margin-left: 400px;
+       }
+     }
