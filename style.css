@@ -586,20 +586,20 @@ nav ul a:hover{
        position: relative;
  }
  .section-7 .img-7 .offer-option{
-    width: 20.25rem;
-    height: 7.5rem;
+    width: 17.25rem;
+    height: 6.5rem;
     transform: rotate(-19.628deg);
     border-radius: 16px;
     background: #FF5400;
     position: relative;
     left: 15rem;
-    top: -12.3rem;
+    top: -10.3rem;
  }
  .section-7 .img-7 .offer-option h3{
     color: #FFF;
     text-align: center;
     font-family: Mulish;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
     transform: rotate(-.628deg);
     padding-top: 1rem;
@@ -608,7 +608,7 @@ nav ul a:hover{
  .section-7 .img-7 .offer-option h1{
     color: #FFF;
     font-family: Mulish;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     padding-left: 2.8rem;
     position: relative;
@@ -616,7 +616,7 @@ nav ul a:hover{
  }
 
  .section-7 .img-7 img{
-    width: 35.75rem;
+    width: 32.75rem;
     height: 26.375rem;
     position: relative;
  }
@@ -704,9 +704,7 @@ nav ul a:hover{
         position: relative;
         margin: -195px 90px 0px 0px;
      }
-     .section-2{
-        
-     }
+    
      .popular-1 h1{
         width: 355px;
         height: auto;
@@ -753,4 +751,83 @@ nav ul a:hover{
         width: 600px;
         margin-left: 400px;
        }
-     }
+       .taitel-5 h1{
+        width: 400px;
+        margin-left: 450px;
+       }
+       .taitel-5 p{
+        width: 600px;
+        margin-left: 350px;
+       }
+       .section-5 .tour-content{
+        width: 115%;
+        position: relative;
+        margin: -195px 90px 0px 0px;
+       }
+       .taitel-6 h1{
+        width: 500px;
+       }
+       .taitel-6 p{
+        width: 400px;
+       }
+    }
+       @media screen and (min-width:992px) and (max-width:1342px){
+        body{
+            margin-left: 190px;
+        }
+        .section-1 .banner{
+                 width: 1065px;
+            }
+            .taitel h1{
+                display: inline-flex;
+            }
+            .taitel h1 span{
+                margin-left: 20px;
+            }
+            nav{
+                gap: 160px;
+            }
+            .popular-1 h1{
+                width: 400px;
+                margin-left: 0px;
+            }
+            .popular-1 p{
+                width: 500px;
+            }
+            .taitel-3 h1{
+                margin-left: 400px;
+            }
+            .taitel-3 p{
+                margin-left: 350px;
+            }
+            .img-3{
+                width: 1400px;
+                height: auto;
+            }
+            .taitel-4 h1{
+                margin-left: 400px;
+            }
+            .taitel-4 p{
+                margin-left: 350px;
+            }
+            .taitel-5 h1{
+                margin-left: 400px;
+            }
+            .taitel-5 p{
+                margin-left: 350px;
+            }
+            .section-5 .tour-content{
+                width: 115%;
+                position: relative;
+                margin: -195px 90px 0px 0px;
+               }
+               .taitel-6 h1{
+                width: 500px;
+               }
+               .taitel-6 p{
+                width: 400px;
+               }  
+               
+       }
+      
+    
