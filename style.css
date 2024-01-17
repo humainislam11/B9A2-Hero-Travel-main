@@ -1,7 +1,6 @@
 body{
     font-family: Mulish;
     font-optical-sizing: auto;
-   
 }
 nav{
     display: flex;
@@ -677,6 +676,10 @@ nav ul a:hover{
     margin-top: 3rem;
     margin-bottom: 3rem;
  }
+   
+
+ /*responsib start*/
+
 
 @media screen and (max-width:576px){
     body{
@@ -829,5 +832,70 @@ nav ul a:hover{
                }  
                
        }
-      
+       
+       @media screen and (min-width:1369px){
+        body{
+            margin-left: 230px;
+        }
+        .section-1 .banner{
+                 width: 1065px;
+            }
+            .taitel h1{
+                display: inline-flex;
+            }
+            .taitel h1 span{
+                margin-left: 20px;
+            }
+            nav{
+                gap: 10px;
+            }
+            nav ul {
+                margin-right: 190px;
+            }
+            .popular-1 h1{
+                width: 400px;
+                margin-left: 0px;
+            }
+            .popular-1 p{
+                width: 500px;
+            }
+           .taitel-3 h1{
+            margin-left: -310px;
+           }
+           .taitel-3 p{
+            margin-left: -310px;
+           }
+            .img-3{
+                width: 1400px;
+                height: auto;
+            }
+            .taitel-4 h1{
+                margin-left: -300px;
+            }
+            .taitel-4 p{
+                margin-left: -300px;
+            }
+            .taitel-5 h1{
+                margin-left: -300px;
+            }
+            .taitel-5 p{
+                margin-left: -300px;
+            }
+            .section-5 .tour-content{
+                width: 115%;
+                position: relative;
+                margin: -195px 90px 0px 0px;
+               }
+               .taitel-6 h1{
+                width: 500px;
+               }
+               .taitel-6 p{
+                width: 400px;
+               } 
+               .taitel-6 li {
+                width: 470px;
+               } 
+               
+       }
+       /*responsib end*/
     
