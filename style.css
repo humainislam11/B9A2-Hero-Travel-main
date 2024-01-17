@@ -682,7 +682,9 @@ nav ul a:hover{
 
 
 @media screen and (max-width:576px){
-  
+    body{
+        margin-left: 190px;
+    }
      nav ul{
         display: none;
      }
@@ -773,7 +775,9 @@ nav ul a:hover{
        }
     }
        @media screen and (min-width:992px) and (max-width:1342px){
-       
+        body{
+            margin-left: 190px;
+        }
         .section-1 .banner{
                  width: 1065px;
             }
@@ -830,7 +834,9 @@ nav ul a:hover{
        }
        
        @media screen and (min-width:1369px){
-       
+        body{
+            margin-left: 230px;
+        }
         .section-1 .banner{
                  width: 1065px;
             }
